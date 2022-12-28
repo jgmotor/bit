@@ -2,6 +2,9 @@
 <html lang="en">
   <style>
     body {
+      font-family: 'Roboto', sans-serif;
+    }
+    body2 {
       background: linear-gradient(to right, #24c1ff, rgb(81, 246, 81), yellow);
       font-family: 'Roboto', sans-serif;
     }
@@ -18,7 +21,7 @@
       font-size: 35px;
     }
     .follow{
-      width: 150px;
+      width: auto;
       height: 50px;
       border: solid 3px;
       border-radius:20px;
@@ -32,6 +35,16 @@
       color: black;
       margin-bottom: 10px;
     }
+    .col {
+      float: left;
+      width: 25%;
+    }
+
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
   </style>
   <head>
     <meta charset="UTF-8">
@@ -40,31 +53,44 @@
     <title>Links JG Motor</title>
   </head>
   <body>
-    <div class="header">
-      <h3>Follow Us On</h3>
-    </div>
-  <div class="container">
+    <h1 style="text-align: center;">Follow Us On</h1>
     <div class="row">
-      <a class="follow" href="">WhatsApp</a>
-      <a class="follow" href="">Instagram</a>
-      <a class="follow" href="">Facebook</a>
-      <a class="follow" href="">Tiktok</a>
+      <div class="col">
+        <a class="follow" href="">WhatsApp</a>
+      </div>
+      <div class="col">
+        <a class="follow" href="">Instagram</a>
+      </div>
+      <div class="col">
+        <a class="follow" href="">Facebook</a>
+      </div>
+      <div class="col">
+        <a class="follow" href="">Tiktok</a>
+      </div>
     </div>
-    <div class="row" style="margin-top:7px;">
-      <a href="https://jgmotor.co.id" target="_blank"> <input class="btn btn-primary btn-block" style="border-radius:15px" value="Official Website" type="button"/> </a>
+    <div class="row">
+      <a class="follow" href="https://jgmotor.co.id" target="_blank">Official Website</a>
     </div>
-    <div class="row" style="margin-top:7px;">
-      <a href="https://jgmotor.co.id/jaringan-kami/" target="_blank"> <input class="btn btn-primary btn-block" style="border-radius:15px" value="Jaringan Dealer" type="button"/> </a>
+    <div class="row">
+      <a class="follow" href="https://jgmotor.co.id/jaringan-kami/" target="_blank">Jaringan Dealer</a>
     </div>
-    <div class="row" style="margin-top:7px;">
-      <input class="btn btn-primary btn-block" style="border-radius:15px" value="--- Marketplace ---" type="button"/>
+    <!--<div class="row">
+      <a class="follow" href="" target="_blank">--- Marketplace ---</a>
+    </div>-->
+    <h1 style="text-align: center;">Supported By</h1>
+    <div class="row">
+      <div class="col">
+        <a class="follow" href="https://www.tokopedia.com/ymhjabar" target="_blank">Tokopedia</a>
+      </div>
+      <div class="col">
+        <a class="follow" href="https://www.blibli.com/merchant/yamaha-jg-motor-group-official-store/JGM-12501" target="_blank">Blibli</a>
+      </div>
+      <div class="col">
+        <a class="follow" href="https://www.bukalapak.com/bukamotor" target="_blank">Bukalapak</a>
+      </div>
+      <div class="col">
+        <a class="follow" href="https://www.jd.id/shop/JG-Motor-Group_39389.html" target="_blank">JD.ID</a>
+      </div>
     </div>
-    <div class="row" style="margin-top:7px;">
-      <input class="btn btn-primary btn-block" style="border-radius:15px" value="Tokopedia" type="button"/>
-      <input class="btn btn-primary btn-block" style="border-radius:15px" value="Blibli" type="button"/>
-      <input class="btn btn-primary btn-block" style="border-radius:15px" value="Bukalapak" type="button"/>
-      <input class="btn btn-primary btn-block" style="border-radius:15px" value="JD.ID" type="button"/>
-    </div>
-  </div>
   </body>
 </html>
