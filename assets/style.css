@@ -23,7 +23,8 @@ body {
   .profile-about {
     text-align: center;
     padding: 2px;
-    font-family: Dosis, sans-serif;
+    font-family: Karla, sans-serif;
+    font-weight: bold;
     font-size: 15px;
     letter-spacing: 2px
   }
