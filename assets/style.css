@@ -1,0 +1,159 @@
+body {
+    color:white;
+}
+  
+  .profile-picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    max-width: 100px;
+    border-radius: 50%
+  }
+  
+  .profile-name {
+    text-align: center;
+    padding: 10px;
+    font-family: Karla, sans-serif;
+    font-weight: 700;
+    color: black;
+    font-size: 20px
+  }
+  
+  .profile-about {
+    text-align: center;
+    padding: 2px;
+    font-family: Dosis, sans-serif;
+    font-size: 15px;
+    letter-spacing: 2px
+  }
+  
+  .links {
+    text-align: center;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    border: .5px solid #27262B;
+    border-width: 1px;
+    display: block;
+    border-radius: 20px;
+    font-family: Karla, sans-serif;
+    position: relative;
+    font-size: 17px;
+    width: 680px;
+    max-width: 95%;
+    transition: all .3s ease-in-out
+  }
+  
+  
+  .links-in {
+    padding: 5px;
+    border: .5px solid #ffffff00;
+    border-width: 1px;
+    width: 30px;
+    display: block;
+    border-radius: 40px;
+    left: 20px;
+    position: absolute;
+    font-size: 20px
+  }
+  
+  .hover {
+    text-decoration: none;
+    color: #FEFFFE;
+    transition: all .3s;
+    background: rgb(51,57,116);
+  }
+  
+  .hover:hover {
+    text-decoration: none;
+    color: #FEFFFE;
+    background: #27262B;
+    transition: all .2s;
+    transform: scale(1.03)
+  }
+  
+  .bottom-text {
+    text-decoration: none;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+    color: #FEFFFE;
+    font-family: Handlee, cursive
+  }
+  
+  .link-hide {
+    text-decoration: none
+  }
+  
+  .link-hide:hover {
+    text-decoration: none
+  }
+  
+ 
+  .links-footer {
+    padding: 4px;
+    border: .5px solid #FEFFFE;
+    border-width: 1px;
+    width: 40px;
+    display: inline-block;
+    border-radius: 30px;
+    font-size: 20px;
+    text-align: center;
+    margin: 10px;
+    margin-top: 50px;
+    color: #000;
+    transition: color 1s;
+    transition: all .3s;
+    background: #FEFFFE
+  }
+  
+  .links-footer:hover {
+    color: #000;
+    background: #FEFFFE;
+    transition: all .3s
+  }
+  
+  .space {
+    padding-top: 40px
+  }
+  
+  .social {
+    font-size:2.5em;
+    text-align: center;
+    margin-bottom:30px;
+  }
+  
+  .social a {
+    color: rgb(51,57,116);
+  }
+
+  .marketplace {
+    background-color: rgb(51,57,116);
+    color: white;
+    max-width: 640px;
+    margin: 15px auto;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  .marketplace .title {
+    text-align:center;
+    font-size:1.2em;
+    margin-bottom:20px;
+    font-family: Karla, sans-serif;
+    font-weight: bold;
+    margin-top:5px;
+  }
+
+  .marketplace .item {
+    background-color: whitesmoke;
+    color: rgb(51,57,116);
+    padding:10px;
+    width:100%;
+    display:block;
+    text-align:center;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-bottom:8px;
+  }
